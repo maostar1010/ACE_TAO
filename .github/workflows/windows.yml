@@ -3,8 +3,8 @@ name: windows
 on:
   push:
   pull_request:
-  schedule:
-    - cron: '0 1 * * SUN'
+  # schedule:
+  #   - cron: '0 1 * * SUN'
   workflow_dispatch:
 
 concurrency:
